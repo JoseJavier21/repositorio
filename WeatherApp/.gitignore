@@ -1,15 +1,33 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Archivos de Gradle y construcción
+.gradle/
+build/
+
+# Configuración local (rutas del SDK, etc.)
 local.properties
+
+# Archivos de Log y del Sistema Operativo
+*.log
+.DS_Store
+
+# Archivos generados por Android Studio e IntelliJ
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+output-metadata.json
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Archivos de firma (¡NUNCA los subas!)
+*.jks
+*.keystore
+
+# Archivos de Google Services (si usas Firebase)
+google-services.json
+
+# Perfilado de Android
+*.hprof
